@@ -68,51 +68,76 @@
             }
             .inb{
                 font-family: arial;
-                border: none;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
                 font-size: 16px;
-                box-shadow: 0 1px 6px rgba(0,0,0,0.2);
-                border-radius: 5px;
-                padding-left: 8px;
-                padding-right: 8px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                margin-bottom: 10px;
+                border-radius: 8px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 16px;
+                padding-right: 16px;
+                margin-bottom: 12px;
+            }
+            .name{
+                width: 148px;;
             }
             .email{
                 display: block;
-                width: 410px;
+                width: 335px;
             }
             .sig{
-                background-color: #2aa1f0;
+                background-color: rgb(47, 127, 231);
                 border: none;
                 color: white;
-                font-size: 16px;
+                width: 300px;
+                font-size: 18px;
                 font-weight: bold;
-                padding-left: 180px;
-                padding-right: 180px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                border-radius: 5px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-radius: 8px;
                 display: block;
                 margin-bottom: 40px;
             }
             .req{
                 font-family: arial;
-                font-size: 30px;
-                margin-bottom: 20px;
+                font-size: 40px;
+                margin-bottom: 25px;
             }
             .ent{
                 display: block;
-                margin-bottom: 5px;
-                font-family: arial;
+                margin-bottom: 10px;
                 font-size: 16px;
                 border: none;
-                background-color: rgb(218, 218, 218);
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                width: 350px;
+                background-color: rgb(240, 240, 240);
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 400px;
+            }
+            .des{
+                margin-bottom: 35px;
+            }
+            .reqn{
+                background-color: black;
+                color: white;
+                border: none;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 25px;
+                padding-right: 25px;
+                font-size: 16px;
+                margin-right: 20px;
+            }
+            .she{
+                background-color: rgb(240, 240, 240);
+                border: none;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 25px;
+                padding-right: 25px;
+                font-size: 16px;
             }
         </style>
     </head>
@@ -135,7 +160,7 @@
         Request a ride now
     </p>
     <input type="text" class="ent" placeholder="Enter pickup location">
-    <input type="text" class="ent" placeholder="Enter destination">
+    <input type="text" class="ent des" placeholder="Enter destination">
     <button class="reqn">Request now</button>
-    <button class="reqn">Schedule for later</button>
+    <button class="she">Schedule for later</button>
 </html>
