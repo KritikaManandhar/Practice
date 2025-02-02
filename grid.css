@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 13px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto, Arial;
+}
+
+.video-thumbnail{
+    margin-bottom: 12px;
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.pic{
+    width: 40px;
+    border-radius: 60px;
+}
+.title{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.channel-name,
+.view{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+.channel-name{
+    margin-bottom: 4px;
+}
